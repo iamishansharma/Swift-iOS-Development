@@ -1,4 +1,4 @@
-# Swift-iOS-Development
+# Swift iOS Development
 
 <p align="center">
   <img src="logo.jpg" width="200">
