@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="logo.jpg" width = "450">
+  <img src="logo.jpg" width = "650">
 </p>
 
 # iOS-Development
