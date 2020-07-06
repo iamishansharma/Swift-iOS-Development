@@ -4,4 +4,4 @@
 
 # iOS-Development
 
-This repository contains iOS apps that I built for [this course](https://www.udemy.com/course/ios-13-app-development-bootcamp/) and practice.
+This repository contains iOS apps that I built for [this udemy course](https://www.udemy.com/course/ios-13-app-development-bootcamp/) and practice.
