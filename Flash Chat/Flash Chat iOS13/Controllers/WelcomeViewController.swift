@@ -19,7 +19,26 @@ class WelcomeViewController: UIViewController
         super.viewDidLoad();
         registerButton.layer.cornerRadius = 30;
         loginButton.layer.cornerRadius = 30;
+
+        animate();
     }
+
+    func animate()
+    {
+        let titleText = "⚡️FlashChat";
+        titleLabel.text = "";
+        var charIndex = 0;
+        for letter in titleText
+        {
+            Timer.scheduledTimer(withTimeInterval: 0.1 * Double(charIndex), repeats: false)
+            {
+                (timer) in
+                self.titleLabel.text?.append(letter);
+            }
+            charIndex += 1;
+        }
+    }
+
     @IBAction func registerPressed(_ sender: UIButton)
     {
 
